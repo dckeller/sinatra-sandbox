@@ -5,7 +5,8 @@ get '/' do
 	erb :index
 end
 
-get '/sanbox' do
+get '/sandbox' do
+	@users = User.all
 	puts "[LOG] Responding to a GET request for /sandbox"
   puts "[LOG] Params: #{params.inspect}"
   erb :get_sandbox
