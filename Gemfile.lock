@@ -20,7 +20,7 @@ GEM
     eventmachine (1.2.5)
     faker (1.7.3)
       i18n (~> 0.5)
-    i18n (0.9.1)
+    i18n (0.9.3)
       concurrent-ruby (~> 1.0)
     minitest (5.11.1)
     multi_json (1.13.1)
@@ -85,4 +85,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
